@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AV/Network Rack Setup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>AV/Network Rack Setup</h1>
+    <div id="rack" class="rack">
+      <!-- Devices will be dynamically added here -->
+    </div>
+    <div id="device-palette" class="device-palette">
+      <h2>Choose a Device</h2>
+      <div class="device" draggable="true" id="router">Router</div>
+      <div class="device" draggable="true" id="switch">Switch</div>
+      <div class="device" draggable="true" id="server">Server</div>
+      <div class="device" draggable="true" id="monitor">Monitor</div>
+      <!-- Add more devices as needed -->
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

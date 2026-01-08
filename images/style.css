@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+#app {
+  text-align: center;
+}
+
+.rack {
+  width: 300px;
+  height: 600px;
+  border: 2px solid #333;
+  background-color: #e0e0e0;
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.device-palette {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.device {
+  padding: 10px;
+  margin: 10px;
+  background-color: #3498db;
+  color: white;
+  cursor: grab;
+  border-radius: 5px;
+}
+
+.device:active {
+  cursor: grabbing;
+}
+
+.device-placeholder {
+  height: 60px;
+  background-color: #34495e;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
